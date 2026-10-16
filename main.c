@@ -1,20 +1,26 @@
 #include <stdio.h>
 
 int main() {
-  float distance;
-  long order_velue;
-  printf("Nhap khoang cach (km)");
-  scanf("%f" ,&distance);
-  printf("Nhap gia tri don hang");  
-  scanf("%ld , &order_value");
-//Kiem tra du lieu khong hop le
-    if (disance <= 0 || order_value <= 0) {
-      printr("Mien phi");
+    int distance;
+    long long order_value;
+
+    scanf("%d %lld", &distance, &order_value);
+
+    if (distance <= 0 || order_value <= 0) {
+        printf("INVALID");
     }
-//Tu 1-5km
-  else if (disance <= 15) {
-    printf("Phi giao hang 25000 dong")
-  }
-  
-  return 0;
+    else if (order_value >= 500000 && distance <= 15) {
+        printf("0");
+    }
+    else if (distance <= 5) {
+        printf("15000");
+    }
+    else if (distance <= 15) {
+        printf("25000");
+    }
+    else {
+        printf("40000");
+    }
+
+    return 0;
 }
