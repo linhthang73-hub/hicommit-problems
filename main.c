@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main() {
   float diem;
- if (scanf)("%f" , &diem") 
+  scanf("%f" , &diem);
   if (diem >= 9.0) {
     printf("A\n");
-  } else if (diem >= 8.0) {
+  } 
+  /*else if (diem >= 8.0) {
     printf("B+\n");
   } else if (diem >= 7.0) {
      printf("B\n");
@@ -19,5 +20,5 @@ int main() {
   } else {
     printf(F\n);
   }
-    
+    */
   return 0;
