@@ -7,5 +7,6 @@
     case 1 :
       printf("XEP LOAI XUAT SAC\n");
       break;
+  }
   return 0;
 }
