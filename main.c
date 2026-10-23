@@ -19,7 +19,7 @@ int main() {
     ren_luyen = 3;
   } else if (drl >= 80) {
     ren_luyen = 2; 
-  } else if (drl >= 7.0) {
+  } else if (drl >= 70) {
     ren_luyen = 1;
   } else {
     ren_luyen = 0;
