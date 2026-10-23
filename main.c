@@ -1,7 +1,7 @@
 #include <stdio.h>
   int main() {
   int code;
-  scanf("%d , &code");
+  scanf("%d" , &code);
 
   switch (code) {
     case 1:
