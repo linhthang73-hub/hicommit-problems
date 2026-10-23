@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
   float diem;
-  scanf("%f" , &diem");
+ if (scanf)("%f" , &diem") 
   if (diem >= 9.0) {
     printf("A\n");
   } else if (diem >= 8.0) {
