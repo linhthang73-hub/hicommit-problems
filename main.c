@@ -24,6 +24,15 @@ int main() {
   } else {
     ren_luyen = 0;
   }
-   
+  if (hoc_luc == 3 && ren_luyen == 3) {
+    printf("HOC_BONG_XUAT_SAC\n");
+  } else if ((hoc_luc == 2 && (ren_luyen == 2 || ren_luyen == 3)) || hoc_luc == 3 && ren_luyen == 2 )) {
+    printf("HOC_BONG_GIOI\n");
+  } else if ((hoc_luc == 1 && ren_luyen >= 1) || (hoc_luc == 2 && ren_luyen == 1 ) || (hoc_luc == 3 && ren_luyen == 1)) {
+    printf("HOC_BONG_KHA\n");
+  }
+   else {
+     printf("KHONG_DAT\n");
+   }
       return 0;
 }
