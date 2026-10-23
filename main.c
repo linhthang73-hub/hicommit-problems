@@ -14,7 +14,7 @@ int main() {
   } else {
     hoc_luc = 0;
   }
-  int ren_luyen = 0 
+  int ren_luyen = 0; 
   if (drl >= 90) {
     ren_luyen = 3;
   } else if (drl >= 80) {
