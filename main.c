@@ -18,7 +18,8 @@ int main() {
   } else if (diem >= 4.0) {
     printf("D\n");
   } else {
-    printf(F\n);
+    printf("F\n");
+    
   }
   return 0;
 }
