@@ -13,4 +13,13 @@ int main() {
             max_day = 31;
         } else if (m == 4 || m == 6 || m == 9 || m == 11) {
             max_day = 30;
-       
+           } else if (m == 2) {
+            if (y % 400 == 0 || (y % 4 == 0 && y % 100 != 0)) {
+                max_day = 29;
+            } else {
+                max_day = 28;
+            }
+        }
+
+        
+      
