@@ -20,6 +20,15 @@ int main() {
                 max_day = 28;
             }
         }
+if (d >= 1 && d <= max_day) {
+            printf("VALID\n");
+        } else {
+            printf("INVALID\n");
+        }
+    }
 
+    return 0;
+}
+       
         
       
