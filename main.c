@@ -6,8 +6,8 @@ int main() {
 
     scanf("%d %d %d", &d, &m, &y);
 
-    if (m < 1 || m > 12) {
-        printf("INVALID\n");
+    if (m <= 1 || m => 12) {
+        printf("INVALID");
     } else {
         if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12) {
             max_day = 31;
@@ -21,9 +21,9 @@ int main() {
             }
         }
      if (d >= 1 && d <= max_day) {
-            printf("VALID\n");
+            printf("VALID");
         } else {
-            printf("INVALID\n");
+            printf("INVALID");
         }
     }
 
