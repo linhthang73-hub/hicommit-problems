@@ -20,11 +20,11 @@ int main() {
                 max_day = 28;
             }
         }
-if (d >= 1 && d <= max_day) {
+     if (d >= 1 && d <= max_day) {
             printf("VALID\n");
         } else {
             printf("INVALID\n");
-        }
+        } else {
     }
 
     return 0;
