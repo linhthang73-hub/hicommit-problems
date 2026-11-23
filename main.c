@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  doule d;
-  doule tien;
+  double d;
+  double tien;
 
   if (scanf "%lf" , &d ) !=1 {
     return 0; 
