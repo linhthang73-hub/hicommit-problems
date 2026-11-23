@@ -8,7 +8,7 @@ int main(void) {
     if(y<1)
     {
       printf("INVALID");
-      reurn 0;
+      return 0;
     }
     if (m < 1 || m > 12) {
         printf("INVALID");
