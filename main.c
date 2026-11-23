@@ -1,11 +1,19 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+int main(void) {
+  doule d;
+  doule tien;
 
-    return 0;
+  if (scanf "%lf" , &d ) !=1 {
+    return 0; 
+  }
+  if (d <= 1.0 ) {
+    tien = d * 15000.0 ;
+  } else if (d <= 5.0) {
+    tien = 1.0 * 15000.0 + (d = 1.0) * 13000.0;
+  } else {
+    tien = 1.0 * 15000.0 + 4.0 * 13000.0 + (d - 5.0) * 11000.0;
+  }
+  printf ("%d\n", (int)tien);
+  return 0;
 }
