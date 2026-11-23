@@ -5,7 +5,11 @@ int main(void) {
     int max_day = 0;
 
     scanf("%d %d %d", &d, &m, &y);
-
+    if(y<1)
+    {
+      printf("INVALID");
+      reurn 0;
+    }
     if (m < 1 || m > 12) {
         printf("INVALID");
     } else {
