@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main() {
-  double gpa, min 
+int main(void) {
+  double gpa, min ;
   int abs;
   
-  scanf( "%lf %lf %d", &gpa &min &abs);
+  scanf( "%lf %lf %d", &gpa, &min, &abs);
   if (abs > 3) {
     printf("FAIL_ATTENDANCE\n");
     } else if (min < 4.0) {
