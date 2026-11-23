@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  doule d;
-  doule tien;
+  double d;
+  int tien;
 
   scanf ("%lf" , &d )
   if (d <= 1 ) {
