@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 int main(void) {
-  double d;
-  double tien;
+  doule d;
+  doule tien;
 
-  if (scanf "%lf" , &d ) !=1 {
-    return 0; 
-  }
-  if (d <= 1.0 ) {
-    tien = d * 15000.0 ;
-  } else if (d <= 5.0) {
-    tien = 1.0 * 15000.0 + (d = 1.0) * 13000.0;
+  scanf ("%lf" , &d )
+  if (d <= 1 ) {
+    tien = d * 15000 ;
+  } else if (d <= 5) {
+    tien = 1 * 15000 + (d = 1) * 13000;
   } else {
-    tien = 1.0 * 15000.0 + 4.0 * 13000.0 + (d - 5.0) * 11000.0;
+    tien = 1 * 15000 + 4 * 13000 + (d - 5) * 11000;
   }
-  printf ("%d\n", (int)tien);
+  printf ("%d",tien);
   return 0;
 }
