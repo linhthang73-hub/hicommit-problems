@@ -21,9 +21,9 @@ int main(void) {
             }
         }
      if (d >= 1 && d <= max_day) {
-            printf("VALID");
-        } else {
             printf("INVALID");
+        } else {
+            printf("VALID");
         }
     }
 
